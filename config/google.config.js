@@ -7,10 +7,7 @@ const GoogleStrategy = googleOAuth.Strategy;
 
 export default (passport) => {
   passport.use(
-    new GoogleStrategy({
-      clientID: "316542724052-tb2icju3h64jgclphnr39nibcskfp0dj.apps.googleusercontent.com",
-      clientSecret: "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",
-      callbackURL: "http://localhost:4000/auth/google/callback"
+    "
     },
 async(accessToken, refreshToken, profile, done) => {
   //creating a new user
